@@ -1,83 +1,93 @@
 const transactions = [
     {
-      id: '5f5ccea0-727e-11ec-9d3a-0242ac130003',
+      id: '5f5ccea0',
       item_name: 'Salary',
-      amount: 2500,
+      amount: 1500,
       date: '2022-01-15',
       from: 'ABC Company',
-      category: 'Income'
+      category: 'Income',
+      deposit: true
     },
     {
-      id: '5f5d48d0-727e-11ec-9d3a-0242ac130003',
+      id: '5f5d48d0',
       item_name: 'Groceries',
       amount: -150,
       date: '2022-01-10',
       from: 'Walmart',
-      category: 'Food'
+      category: 'Food',
+      deposit: false
     },
     {
-      id: '5f5d4a80-727e-11ec-9d3a-0242ac130003',
+      id: '5f5d4a80',
       item_name: 'Gas',
       amount: -50,
       date: '2022-01-09',
       from: 'Shell',
-      category: 'Transportation'
+      category: 'Transportation',
+      deposit: false
     },
     {
-      id: '5f5d4c40-727e-11ec-9d3a-0242ac130003',
+      id: '5f5d4c40',
       item_name: 'Movie Tickets',
       amount: -30,
       date: '2022-01-07',
       from: 'AMC Theatres',
-      category: 'Entertainment'
+      category: 'Entertainment',
+      deposit: false
     },
     {
-      id: '5f5d4e00-727e-11ec-9d3a-0242ac130003',
+      id: '5f5d4e00',
       item_name: 'Gift for Friend',
       amount: -50,
       date: '2022-01-05',
       from: 'Amazon',
-      category: 'Gifts'
+      category: 'Gifts',
+      deposit: false
     },
     {
-      id: '5f5d4fc0-727e-11ec-9d3a-0242ac130003',
+      id: '5f5d4fc0',
       item_name: 'Rent',
       amount: -1000,
       date: '2022-01-01',
       from: 'Landlord',
-      category: 'Housing'
+      category: 'Housing',
+      deposit: false
     },
     {
-      id: '5f5d5180-727e-11ec-9d3a-0242ac130003',
+      id: '5f5d5180',
       item_name: 'Internet Bill',
       amount: -80,
       date: '2021-12-29',
       from: 'Comcast',
-      category: 'Utilities'
+      category: 'Utilities',
+      deposit: false
     },
     {
-      id: '5f5d5340-727e-11ec-9d3a-0242ac130003',
+      id: '5f5d5340',
       item_name: 'New Shoes',
       amount: -100,
       date: '2021-12-25',
       from: 'Nike',
-      category: 'Clothing'
+      category: 'Clothing',
+      deposit: false
     },
     {
-      id: '5f5d5500-727e-11ec-9d3a-0242ac130003',
+      id: '5f5d5500',
       item_name: 'Dinner with Friends',
       amount: -70,
       date: '2021-12-22',
       from: 'Local Restaurant',
-      category: 'Food'
+      category: 'Food',
+      deposit: false
     },
     {
-      id: '5f5d56c0-727e-11ec-9d3a-0242ac130003',
+      id: '5f5d56c0',
       item_name: 'Phone Bill',
       amount: -50,
       date: '2021-12-20',
       from: 'Verizon',
-      category: 'Utilities'
+      category: 'Utilities',
+      deposit: false
     }
   ];
 
