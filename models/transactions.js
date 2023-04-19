@@ -1,6 +1,6 @@
 const transactions = [
     {
-      id: '5f5ccea0',
+      id: 0,
       item_name: 'Salary',
       amount: 1500,
       date: '2022-01-15',
@@ -9,7 +9,7 @@ const transactions = [
       deposit: true
     },
     {
-      id: '5f5d48d0',
+      id: 1,
       item_name: 'Groceries',
       amount: -150,
       date: '2022-01-10',
@@ -18,7 +18,7 @@ const transactions = [
       deposit: false
     },
     {
-      id: '5f5d4a80',
+      id: 2,
       item_name: 'Gas',
       amount: -50,
       date: '2022-01-09',
@@ -27,7 +27,7 @@ const transactions = [
       deposit: false
     },
     {
-      id: '5f5d4c40',
+      id: 3,
       item_name: 'Movie Tickets',
       amount: -30,
       date: '2022-01-07',
@@ -36,7 +36,7 @@ const transactions = [
       deposit: false
     },
     {
-      id: '5f5d4e00',
+      id: 4,
       item_name: 'Gift for Friend',
       amount: -50,
       date: '2022-01-05',
@@ -45,7 +45,7 @@ const transactions = [
       deposit: false
     },
     {
-      id: '5f5d4fc0',
+      id: 5,
       item_name: 'Rent',
       amount: -1000,
       date: '2022-01-01',
@@ -54,7 +54,7 @@ const transactions = [
       deposit: false
     },
     {
-      id: '5f5d5180',
+      id: 6,
       item_name: 'Internet Bill',
       amount: -80,
       date: '2021-12-29',
@@ -63,7 +63,7 @@ const transactions = [
       deposit: false
     },
     {
-      id: '5f5d5340',
+      id: 7,
       item_name: 'New Shoes',
       amount: -100,
       date: '2021-12-25',
@@ -72,7 +72,7 @@ const transactions = [
       deposit: false
     },
     {
-      id: '5f5d5500',
+      id: 8,
       item_name: 'Dinner with Friends',
       amount: -70,
       date: '2021-12-22',
@@ -81,7 +81,7 @@ const transactions = [
       deposit: false
     },
     {
-      id: '5f5d56c0',
+      id: 9,
       item_name: 'Phone Bill',
       amount: -50,
       date: '2021-12-20',
