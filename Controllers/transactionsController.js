@@ -37,6 +37,18 @@ transactions.post("/newtransactions", (req, res) => {
     res.status(201).json(newTransactions);
   });
 
- 
+
+ // UPDATE
+//  transactions.put('/:id', (req, res) => {
+//     const { id } = req.params
+//     const updatedtransaction = req.body
+
+//     if (transactionsArray[id]) {
+//         transactionsArray[id] = updatedAnime
+//         res.status(200).json({success: true, payload: transactionsArray[id]})
+//     } else {
+//         res.status(404).json({ success: false, error: `There was no transactions with the id of ${id}`})
+//     }
+// })
 
 module.exports = transactions;
