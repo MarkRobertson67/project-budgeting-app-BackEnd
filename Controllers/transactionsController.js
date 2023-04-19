@@ -31,24 +31,25 @@ transactions.delete('/:id', (req, res) => {
 
 
 //CREATE
-transactions.post("/newtransactions", (req, res) => {
-    const newTransactions = req.body;
-    transactionsArray.push(newTransactions);
-    res.status(201).json(newTransactions);
+transactions.post("/", (req, res) => {
+    const newTransaction = req.body;
+    transactionsArray.push(newTransaction);
+    res.status(201).json(newTransaction);
   });
+  
 
 
  // UPDATE
-//  transactions.put('/:id', (req, res) => {
-//     const { id } = req.params
-//     const updatedtransaction = req.body
+ transactions.put('/:id', (req, res) => {
+    const { id } = req.params
+    const updatedTransaction = req.body
 
-//     if (transactionsArray[id]) {
-//         transactionsArray[id] = updatedAnime
-//         res.status(200).json({success: true, payload: transactionsArray[id]})
-//     } else {
-//         res.status(404).json({ success: false, error: `There was no transactions with the id of ${id}`})
-//     }
-// })
+    if (transactionsArray[id]) {
+        transactionsArray[id] = updatedTransaction
+        res.status(200).json({success: true, payload: transactionsArray[id]})
+    } else {
+        res.status(404).json({ success: false, error: `There was no transactions with the id of ${id}`})
+    }
+})
 
 module.exports = transactions;
