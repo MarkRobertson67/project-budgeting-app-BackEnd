@@ -3,12 +3,10 @@ const express = require('express');
 const transactions = express.Router();
 const transactionsArray = require('../models/transactions.js')
 
-
 // index
 transactions.get('/', (req, res) => {
     res.json(transactionsArray)
 })
-
 
 // show single item
 transactions.get('/:id', (req, res) => {
@@ -21,14 +19,12 @@ transactions.get('/:id', (req, res) => {
     }
 })
 
-
 //Delete
 transactions.delete('/:id', (req, res) => {
     const { id } = req.params
     const deletedTransactions = transactionsArray.splice(id, 1)
     res.status(202).json(deletedTransactions)  
 })
-
 
 //CREATE
 transactions.post("/", (req, res) => {
@@ -37,7 +33,6 @@ transactions.post("/", (req, res) => {
     res.status(201).json(newTransaction);
   });
   
-
 
  // UPDATE
  transactions.put('/:id', (req, res) => {
